@@ -1,0 +1,29 @@
+.home-footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+.home-footer h2 {
+  color: #ffffff;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.home-footer h1 {
+  font-size: 1.2rem;
+  color: #ededed;
+  margin-bottom: 2rem;
+}
+
+.home-footer h1 span {
+  color: #b0c4de;
+}
+
+.home-footer p {
+  color: #a9a9a9;
+  font-weight: 500;
+}
