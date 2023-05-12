@@ -7,7 +7,7 @@ const SearchBar = ({ formSubmit, value, handleSearchKey, clearSearch }) => (
     <form onSubmit={formSubmit}>
       <input
         type="text"
-        placeholder="جستوجو بر اساس دسته بندی"
+        placeholder="جستجو بر اساس دسته بندی"
         value={value}
         onChange={handleSearchKey}
       />
