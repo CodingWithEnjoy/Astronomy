@@ -4,6 +4,7 @@ import BlogList from "../../components/Home/BlogList";
 import Header from "../../components/Home/Header";
 import SearchBar from "../../components/Home/SearchBar";
 import { blogList } from "../../config/data";
+import Footer from "../../components/Home/Footer";
 
 const Home = () => {
   const [blogs, setBlogs] = useState(blogList);
@@ -37,6 +38,7 @@ const Home = () => {
         handleSearchKey={(e) => setSearchKey(e.target.value)}
       />
       {!blogs.length ? <EmptyList /> : <BlogList blogs={blogs} />}
+      <Footer />
     </div>
   );
 };
