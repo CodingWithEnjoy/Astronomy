@@ -3,19 +3,24 @@
   src: url(./YekanBakh-Heavy.woff);
 }
 
+::selection {
+  background-color: #ffffff;
+  color: #000000;
+}
+
 *,
 *::after,
 *::before {
   box-sizing: border-box;
   margin: 0;
+  user-select: none;
+  -webkit-user-drag: none;
 }
 
 body {
   font-family: "Yekan Bakh", sans-serif;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url(bg.jpg);
-  background-position: 50% 50%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(bg.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
   background-attachment: fixed;
 }
 
