@@ -1,6 +1,6 @@
 export const blogList = [
   {
-    id: 1,
+    id: 1, 
     title: "جیمز وب از ادغام کهکشانی عکس گرفت",
     category: "کهکشان",
     subCategory: ["کهکشان", "سیارات", "جیمز وب"],
